@@ -1,0 +1,34 @@
+PODS:
+  - Charts (3.0.1):
+    - Charts/Core (= 3.0.1)
+  - Charts/Core (3.0.1)
+  - Realm (2.4.2):
+    - Realm/Headers (= 2.4.2)
+  - Realm/Headers (2.4.2)
+  - RealmSwift (2.4.2):
+    - Realm (= 2.4.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Charts (from `https://github.com/danielgindi/Charts`)
+  - RealmSwift
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Charts:
+    :git: https://github.com/danielgindi/Charts
+
+CHECKOUT OPTIONS:
+  Charts:
+    :commit: 853237172914b276809d5a821455f76eea67c766
+    :git: https://github.com/danielgindi/Charts
+
+SPEC CHECKSUMS:
+  Charts: 3a34c106f8f7c04cec39271d3445f1549481788b
+  Realm: d27b758e12d62a3371879a065d4c40aa212c5a54
+  RealmSwift: 9556c0fe0f0cfecacfb755ae9e68ff379fc6bead
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 1850c7d9ceb266bc4fc932732219f429d48b7e7a
+
+COCOAPODS: 1.2.0
