@@ -2,6 +2,7 @@ PODS:
   - Charts (3.0.1):
     - Charts/Core (= 3.0.1)
   - Charts/Core (3.0.1)
+  - PusherSwift (4.0.1)
   - Realm (2.4.2):
     - Realm/Headers (= 2.4.2)
   - Realm/Headers (2.4.2)
@@ -11,6 +12,7 @@ PODS:
 
 DEPENDENCIES:
   - Charts (from `https://github.com/danielgindi/Charts`)
+  - PusherSwift
   - RealmSwift
   - SwiftyJSON
 
@@ -25,10 +27,11 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Charts: 3a34c106f8f7c04cec39271d3445f1549481788b
+  PusherSwift: 8249a1c3634943cf7e1e9a691468357d53ab7e5f
   Realm: d27b758e12d62a3371879a065d4c40aa212c5a54
   RealmSwift: 9556c0fe0f0cfecacfb755ae9e68ff379fc6bead
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 1850c7d9ceb266bc4fc932732219f429d48b7e7a
+PODFILE CHECKSUM: 32e4ab50c5f89f3b754b32503f962f3e09a5df4f
 
 COCOAPODS: 1.2.0

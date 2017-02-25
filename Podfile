@@ -9,6 +9,7 @@ target 'LOLStats Monitor' do
   pod 'Charts', :git => 'https://github.com/danielgindi/Charts'
   pod 'RealmSwift'
   pod 'SwiftyJSON'
+  pod 'PusherSwift'
 
   post_install do |installer|
     installer.pods_project.targets.each do |target|
